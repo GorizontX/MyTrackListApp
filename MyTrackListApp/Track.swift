@@ -10,7 +10,7 @@ struct Track {
     let song: String
     
     var title: String {
-        "\(artist) – \(song)"
+        "\(artist) - \(song)"
     }
     
     static  func getTrackList() -> [Track] {
